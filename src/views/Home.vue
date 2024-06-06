@@ -1,5 +1,5 @@
 <template>
-  <div class="p-8 pb-0 text-gray-500">
+  <div class="p-8 pb-0 text-[#04466c]">
     <h1 class="text-4xl font-bold mb-4">New Meals</h1>
   </div>
   <Meals :meals="meals" />
@@ -14,7 +14,7 @@ import axiosClient from "../axiosClient.js";
 const meals = ref([]);
 
 onMounted(async () => {
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 9; i++) {
     axiosClient
       .get(`random.php`)
       .then(({ data }) => meals.value.push(data.meals[0]));

@@ -1,6 +1,6 @@
 <template>
   <div class="p-8 pb-0">
-    <h1 class="text-4xl font-bold mb-4 text-gray-500">Search Meals by Name</h1>
+    <h1 class="text-4xl font-bold mb-4 text-[#04466c]">Search Meals by Name</h1>
   </div>
   <div class="px-8 pb-3">
     <input
