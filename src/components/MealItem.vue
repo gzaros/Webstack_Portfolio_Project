@@ -15,18 +15,8 @@
         {{ $filters.truncateWords(meal.strInstructions, 20) }}
       </p>
       <div class="flex ">
-<<<<<<< HEAD
         <DetailButton :href="meal.strArea" />
         <ShareButton :href="meal.strCategory" />
-=======
-<<<<<<< HEAD
-        <DetailButton :href="meal.strArea" />
-        <ShareButton :href="meal.strCategory" />
-=======
-        <DetailButton :href="meal.strYoutube" />
-        <ShareButton :href="meal.strYoutube" />
->>>>>>> d139e79c70908a24bfc4200d71d1f1e8cce6edc7
->>>>>>> origin/master
       </div>
     </div>
   </div>
