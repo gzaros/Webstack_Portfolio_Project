@@ -118,10 +118,17 @@
   </div>
 </template>
 <script setup>
+<<<<<<< HEAD
 import { onMounted, ref } from "vue";
 import { useRoute } from "vue-router";
 import axiosClient from "../axiosClient";
 import DetailButton from "../components/DetailButton.vue";
+=======
+import { onMounted, ref } from 'vue'
+import { useRoute } from 'vue-router';
+import axiosClient from '../axiosClient';
+import DetailButton from '../components/DetailButton.vue';
+>>>>>>> d139e79c70908a24bfc4200d71d1f1e8cce6edc7
 
 const route = useRoute();
 const meal = ref({});

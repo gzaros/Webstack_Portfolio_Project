@@ -2,7 +2,11 @@
   <a
     :href="href"
     target="_blank"
+<<<<<<< HEAD
     class="flex items-center pt-3 px-3 py-2 rounded border-2 text-white border-[#f3aa0f] bg-[#f3aa0f] hover:bg-[#775f2b] hover:border-[#775f2b] transition-colors"
+=======
+    class="px-3 py-2 rounded border-2 text-white border-[#f3aa0f] bg-[#f3aa0f] hover:bg-[#775f2b] hover:border-[#775f2b] transition-colors"
+>>>>>>> d139e79c70908a24bfc4200d71d1f1e8cce6edc7
   >
     <slot
       ><svg
@@ -10,6 +14,7 @@
         width="16"
         height="16"
         fill="currentColor"
+<<<<<<< HEAD
         class="bi bi-flag-fill mr-2"
         viewBox="0 0 16 16"
       >
@@ -19,6 +24,18 @@
     ></slot>
      {{ href }}
   </a>
+=======
+        class="bi bi-eye-fill"
+        viewBox="0 0 16 16"
+      >
+        <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+        <path
+          d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"
+        /></svg
+    ></slot>
+  </a>
+
+>>>>>>> d139e79c70908a24bfc4200d71d1f1e8cce6edc7
 </template>
 
 <script setup>

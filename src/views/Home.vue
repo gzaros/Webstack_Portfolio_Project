@@ -1,5 +1,9 @@
 <template>
+<<<<<<< HEAD
   <div class="p-8 pb-0 text-[#04466c]">
+=======
+  <div class="p-8 pb-0 text-gray-500">
+>>>>>>> d139e79c70908a24bfc4200d71d1f1e8cce6edc7
     <h1 class="text-4xl font-bold mb-4">New Meals</h1>
   </div>
   <Meals :meals="meals" />

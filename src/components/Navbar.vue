@@ -1,5 +1,9 @@
 <template>
+<<<<<<< HEAD
   <header class="bg-[#04466c] shadow h-16 flex justify-between items-center px-4">
+=======
+  <header class="bg-black shadow h-16 flex justify-between items-center px-4">
+>>>>>>> d139e79c70908a24bfc4200d71d1f1e8cce6edc7
     <router-link
       :to="{ name: 'home' }"
       class="inline-flex items-center h-full text-white font-bold"
