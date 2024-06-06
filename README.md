@@ -54,4 +54,12 @@
 
 6. Open your browser and navigate to `http://localhost:3000` for the frontend and `http://localhost:5000` for the backend.
 
+<<<<<<< HEAD
 ## Project Structure
+=======
+<<<<<<< HEAD
+## Project Structure
+=======
+## Project Structure
+>>>>>>> d139e79c70908a24bfc4200d71d1f1e8cce6edc7
+>>>>>>> origin/master
