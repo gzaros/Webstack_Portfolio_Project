@@ -58,7 +58,12 @@
 ## Project Structure
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Project Structure
+=======
+## Project Structure
+>>>>>>> d139e79c70908a24bfc4200d71d1f1e8cce6edc7
+>>>>>>> origin/master
 =======
 ## Project Structure
 >>>>>>> d139e79c70908a24bfc4200d71d1f1e8cce6edc7
